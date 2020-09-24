@@ -24,6 +24,12 @@ function Banner({ fetchUrl }) {
   }, []);
 
   console.log(movie, "moviesBanner");
+
+  function truncate(str, lengthAll) {
+    if (!str) return;
+    return str.length > lengthAll ? str.substr(0, lengthAll - 1) + "..." : str;
+  }
+
   return (
     <header
       className="banner"
@@ -32,8 +38,17 @@ function Banner({ fetchUrl }) {
       }}
     >
       <div className="banner__contents">
-        <h1>{movie?.title || movie.name || movie.original_name}</h1>
+        <h1>{movie.title || movie.name || movie.original_name}</h1>
+
+        <div className="banner__buttons">
+          <button className="banner__button">Play</button>
+          <button className="banner__button">Play</button>
+        </div>
+
+        <h1 className="banner__description">{truncate(movie.overview, 100)}</h1>
       </div>
+
+      <div className="banner--fadeBottom"></div>
     </header>
   );
 }
