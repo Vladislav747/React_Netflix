@@ -21,8 +21,6 @@ function Banner() {
     fetchData();
   }, []);
 
-  console.log(movie, "moviesBanner");
-
   function truncate(str, lengthAll) {
     if (!str) return;
     return str.length > lengthAll ? str.substr(0, lengthAll - 1) + "..." : str;
