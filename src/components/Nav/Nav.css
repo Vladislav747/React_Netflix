@@ -4,6 +4,12 @@
   display: flex;
   justify-content: space-between;
   z-index: 999;
+  height: 70px;
+  width: 100%;
+}
+
+.nav__black{
+  background-color: #111;
 }
 
 .nav__logo {
