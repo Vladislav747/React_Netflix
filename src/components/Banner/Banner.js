@@ -4,10 +4,8 @@ import "./Banner.css";
 import requests from "../../requests";
 import axios from "../../axios";
 
-function Banner({ fetchUrl }) {
+function Banner() {
   const [movie, setMovies] = useState([]);
-
-  const base_url = "https://image.tmdb.org/t/p/original/";
 
   //run once when the row loads, and don't run again
   useEffect(() => {
