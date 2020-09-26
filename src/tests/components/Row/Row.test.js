@@ -1,5 +1,4 @@
 import renderer from "react-test-renderer";
-import { shallow, mount } from "enzyme";
 import React from "react";
 
 import Row from "../../../components/Row/Row";
