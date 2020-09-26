@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render App match snapshot 1`] = `
+<div
+  className="app"
+>
+  <div
+    className="nav false"
+  >
+    <img
+      alt="Netflix Logo"
+      className="nav__logo"
+      src="http://static.wixstatic.com/media/cbafe1_63c8e817ce56404193de0db66bc66418~mv2_d_1600_1600_s_2.png"
+    />
+  </div>
+  <header
+    className="banner"
+    style={
+      Object {
+        "backgroundImage": "url(\\"https://image.tmdb.org/t/p/original/undefined\\")",
+      }
+    }
+  >
+    <div
+      className="banner__contents"
+    >
+      <h1 />
+      <div
+        className="banner__buttons"
+      >
+        <button
+          className="banner__button"
+        >
+          Play
+        </button>
+        <button
+          className="banner__button"
+        >
+          Play
+        </button>
+      </div>
+      <h1
+        className="banner__description"
+      />
+    </div>
+    <div
+      className="banner--fadeBottom"
+    />
+  </header>
+  <div
+    className="row"
+  >
+    <h2>
+      NETFLIX ORIGINALS
+    </h2>
+    <div
+      className="row__posters"
+    />
+  </div>
+  <div
+    className="row"
+  >
+    <h2>
+      Trending Now
+    </h2>
+    <div
+      className="row__posters"
+    />
+  </div>
+  <div
+    className="row"
+  >
+    <h2>
+      Top Rated
+    </h2>
+    <div
+      className="row__posters"
+    />
+  </div>
+  <div
+    className="row"
+  >
+    <h2>
+      Action Movies
+    </h2>
+    <div
+      className="row__posters"
+    />
+  </div>
+  <div
+    className="row"
+  >
+    <h2>
+      Comedy Movies
+    </h2>
+    <div
+      className="row__posters"
+    />
+  </div>
+  <div
+    className="row"
+  >
+    <h2>
+      Horror Movies
+    </h2>
+    <div
+      className="row__posters"
+    />
+  </div>
+  <div
+    className="row"
+  >
+    <h2>
+      Romance Movies
+    </h2>
+    <div
+      className="row__posters"
+    />
+  </div>
+  <div
+    className="row"
+  >
+    <h2>
+      Documentaries
+    </h2>
+    <div
+      className="row__posters"
+    />
+  </div>
+</div>
+`;

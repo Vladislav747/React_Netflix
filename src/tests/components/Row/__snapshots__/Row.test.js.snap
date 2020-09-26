@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Row render correctly Row component 1`] = `
+<div
+  className="row"
+>
+  <h2 />
+  <div
+    className="row__posters"
+  />
+</div>
+`;

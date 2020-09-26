@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Banner render correctly Banner component 1`] = `
+<header
+  className="banner"
+  style={
+    Object {
+      "backgroundImage": "url(\\"https://image.tmdb.org/t/p/original/undefined\\")",
+    }
+  }
+>
+  <div
+    className="banner__contents"
+  >
+    <h1 />
+    <div
+      className="banner__buttons"
+    >
+      <button
+        className="banner__button"
+      >
+        Play
+      </button>
+      <button
+        className="banner__button"
+      >
+        Play
+      </button>
+    </div>
+    <h1
+      className="banner__description"
+    />
+  </div>
+  <div
+    className="banner--fadeBottom"
+  />
+</header>
+`;
